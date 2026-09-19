@@ -1,0 +1,62 @@
+:root {
+  --am-bg: #F9FAF8;
+  --am-surface: #FFFFFF;
+  --am-surface-subtle: #F5F7F6;
+
+  --am-ink: #0F172A;
+  --am-text-secondary: #667085;
+  --am-text-muted: #8A94A3;
+
+  --am-green: #0F7A46;
+  --am-green-soft: #EAF7EF;
+  --am-red: #E23D55;
+  --am-red-soft: #FFF0F2;
+  --am-amber: #D98B12;
+  --am-amber-soft: #FFF7E8;
+  --am-neutral: #7B8491;
+  --am-neutral-soft: #F1F3F5;
+
+  --am-border: #E5E9E7;
+  --am-border-strong: #D8DEDB;
+
+  --am-font: Inter, Geist, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+  --am-h1-size: 32px;
+  --am-h1-line: 1.12;
+  --am-h2-size: 24px;
+  --am-h2-line: 1.2;
+  --am-h3-size: 18px;
+  --am-body-size: 14px;
+  --am-body-line: 1.5;
+  --am-small-size: 12px;
+  --am-caption-size: 11px;
+
+  --am-space-4: 4px;
+  --am-space-8: 8px;
+  --am-space-12: 12px;
+  --am-space-16: 16px;
+  --am-space-20: 20px;
+  --am-space-24: 24px;
+  --am-space-32: 32px;
+  --am-space-40: 40px;
+  --am-space-48: 48px;
+
+  --am-radius-sm: 8px;
+  --am-radius-md: 10px;
+  --am-radius-lg: 12px;
+  --am-radius-pill: 999px;
+
+  --am-shadow-subtle: 0 6px 18px rgba(15, 23, 42, 0.045);
+
+  --am-motion-fast: 150ms;
+  --am-motion-normal: 200ms;
+}
+
+/*
+Rules:
+- default to no shadow
+- default to no border when whitespace can create grouping
+- no serif
+- no decorative botanical imagery
+- semantic colors carry meaning only
+*/
