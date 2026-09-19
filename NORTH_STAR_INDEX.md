@@ -8,13 +8,13 @@ Date: 19 September 2026
 
 | Surface | Desktop | Mobile | Lock document |
 |---|---|---|---|
-| Dashboard | ✅ Locked | ✅ Locked | decisions/003_DASHBOARD_NORTH_STAR_LOCK.md |
+| Dashboard | ✅ Locked (v2) | ✅ Locked (v2) | decisions/003_DASHBOARD_NORTH_STAR_LOCK.md |
 | History | ✅ Locked | ✅ Locked | decisions/006_HISTORY_NORTH_STAR_LOCK.md |
 | PIC | ✅ Locked | ✅ Locked | decisions/004_PIC_NORTH_STAR_LOCK.md |
 | Angle | ✅ Locked | ✅ Locked | decisions/005_ANGLE_NORTH_STAR_LOCK.md |
 | Creator × Account | ✅ Locked | ✅ Locked | decisions/007_CREATOR_ACCOUNT_NORTH_STAR_LOCK.md |
 
-## Visual reference asset
+## Visual reference assets
 
 A compact contact sheet for the newly locked Investigation North Stars is stored at:
 
@@ -26,6 +26,12 @@ It contains:
 - Creator × Account desktop + mobile
 
 Use the lock documents for analytical intent and the contact sheet for visual fidelity.
+
+The Dashboard v2 approved reference is stored at:
+
+`references/north-stars/dashboard_v2_approved.webp`
+
+It supersedes the earlier Dashboard mockups referenced from `references/dashboard_direction.html`.
 
 ## Meaning of Locked
 
