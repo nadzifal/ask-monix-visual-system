@@ -4,7 +4,45 @@ Status: **LOCKED VISUAL DIRECTION / IMPLEMENTATION REFERENCE**
 
 This repository exists so future implementation work does not drift away from the approved Ask Monix product direction.
 
-## Source-of-truth order
+## First: understand the responsibility split
+
+Before reading visual rules, read:
+
+[governance/DATA_VISUAL_COLLABORATION_CONTRACT.md](governance/DATA_VISUAL_COLLABORATION_CONTRACT.md)
+
+The boundary is simple:
+
+> **Claude owns data truth. Ask Monix Visual System owns visual truth.**
+
+Claude owns:
+- source database/environment
+- canonical schema and field names
+- entity relationships
+- query logic
+- metric definitions
+- calculation validity
+- provenance
+- freshness
+- missingness
+
+This repository owns:
+- visual hierarchy
+- reading flow
+- composition
+- typography
+- spacing
+- color semantics
+- line/border/surface behavior
+- chart presentation
+- scan vs inspect
+- responsive behavior
+- evidence presentation
+
+Some early mockups were created from Layer-2 data captured from the Monix web interface. Those mockups are **visual references only**. They do not define canonical database naming.
+
+If the canonical database naming in Claude's `monverse-app` data environment differs from a mockup, use the canonical database name internally and map it into the approved human-facing UI.
+
+## Source-of-truth order for VISUAL decisions
 
 1. Approved moodboard
 2. Approved Creator × Account direction
@@ -75,6 +113,10 @@ Do not use:
 ## Approved visual references
 
 - [Moodboard V1](references/moodboard_v1.html)
+- [Dashboard direction](references/dashboard_direction.html)
+- [History direction](references/history_direction.html)
+- [PIC direction](references/pic_direction.html)
+- [Angle direction](references/angle_direction.html)
 - [Creator × Account approved direction](references/creator_account_approved.html)
 
-These references define visual language, not production data.
+These references define visual language and composition, not production data.
