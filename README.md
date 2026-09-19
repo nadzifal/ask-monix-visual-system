@@ -4,6 +4,29 @@ Canonical source of truth for how Ask Monix should **look, read, and guide atten
 
 This repository is intentionally separate from the implementation repository.
 
+## Responsibility boundary
+
+Ask Monix is now explicitly split into two authorities:
+
+- **Claude / Monverse data environment owns data truth**
+- **This repository owns visual truth**
+
+For database source, schema, canonical field names, entity relationships, metric calculation, query logic, data availability, provenance, and freshness, follow the data environment Claude already uses from the user's local `monverse-app` context.
+
+For information hierarchy, reading flow, visual composition, typography, spacing, color, surfaces, chart treatment, scan-vs-inspect behavior, responsive behavior, and evidence presentation, follow this repository.
+
+Read the full contract:
+
+[governance/DATA_VISUAL_COLLABORATION_CONTRACT.md](governance/DATA_VISUAL_COLLABORATION_CONTRACT.md)
+
+## Important historical note
+
+Some early visual references were created from Layer-2 data captured from the Monix web interface.
+
+Those references are valid for **visual hierarchy and product behavior**, but they are **not canonical database contracts**.
+
+If naming differs, canonical database naming from the Monverse/Claude data environment wins internally, and the UI should map it into the approved human-facing presentation.
+
 ## What belongs here
 
 - approved moodboard and visual direction
@@ -20,6 +43,9 @@ This repository is intentionally separate from the implementation repository.
 
 - production analytics logic
 - database architecture
+- source database selection
+- schema design
+- query implementation
 - data-source migration
 - capability-engine implementation
 - business intelligence semantics that are not visual/presentation rules
@@ -44,5 +70,9 @@ Performance Investigation remains flexible in composition, but it is **structure
 ## Core visual rule
 
 > Moodboard controls visual language. Product reasoning controls composition. Component libraries support both, but do not control either.
+
+## Collaboration rule
+
+> Claude owns what the data actually is. This repository owns how humans should understand it visually.
 
 Start at [START_HERE.md](START_HERE.md).
