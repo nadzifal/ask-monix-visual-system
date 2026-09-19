@@ -14,6 +14,19 @@ Date: 19 September 2026
 | Angle | ✅ Locked | ✅ Locked | decisions/005_ANGLE_NORTH_STAR_LOCK.md |
 | Creator × Account | ✅ Locked | ✅ Locked | decisions/007_CREATOR_ACCOUNT_NORTH_STAR_LOCK.md |
 
+## Visual reference asset
+
+A compact contact sheet for the newly locked Investigation North Stars is stored at:
+
+`references/north-stars/investigations_locked_contact_sheet.jpg`
+
+It contains:
+- Angle desktop + mobile
+- History desktop + mobile
+- Creator × Account desktop + mobile
+
+Use the lock documents for analytical intent and the contact sheet for visual fidelity.
+
 ## Meaning of Locked
 
 These are no longer exploratory mockups. They are the approved North Star for composition, hierarchy, product feel, responsive intent, and analytical visual grammar.
